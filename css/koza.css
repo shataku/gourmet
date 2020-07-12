@@ -16,6 +16,7 @@ h3 {
     background-size: cover;
     height: 700px;
     width: 100%;
+    margin-bottom: 3%;
 }
 
 .header h1 {
@@ -28,14 +29,13 @@ h3 {
 }
 
 .main {
-    background-color: rgba(241, 176, 12, 0.4);
-    width: 98%;
-    height: 100%;
-    margin-right: 1%;
-    margin-left: 1%;
-    margin-top: 20px;
-    margin-bottom: 100px;
-    /* display: flex; */
+display:flex;
+justify-content:space-around;
+flex-wrap:wrap;
+
+}
+.card {
+    margin-bottom: 3%;
 }
 
 .m-container {
@@ -66,78 +66,13 @@ footer img .favi {
     margin-right: 20px;
 }
 
-/* 口コミ投稿フォーム作成 */
-.add-form {
-    border: black 2px solid;
-    background-color: rgba(181, 241, 238, 0.7);
-    width: 300px;
-    height: 400px
+/* 写真のサイズ */
+.card-img-top {
+    width: 270px;
+    height: 160px;
+    padding: 1%;
 }
 
-.add-form p {
-    font-size: 20px;
-    text-align: left;
-    padding-left: 10px;
-    padding-bottom: 5px;
-}
-
-.f-submit input .submit {
-    /* margin-top: 2px; */
-    height: 30%;
-    font-size: 15px;
-    width: 40%;
-    /* margin-right: 20px; */
-}
-
-/* 口コミの星の実装 */
-.evaluation {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-}
-
-.evaluation input[type='radio'] {
-    display: none;
-}
-
-.evaluation label {
-    position: relative;
-    padding: 10px 10px 0;
-    color: gray;
-    cursor: pointer;
-    font-size: 50px;
-}
-
-.evaluation label .text {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    text-align: center;
-    font-size: 12px;
-    color: gray;
-}
-
-.evaluation label:hover,
-.evaluation label:hover~label,
-.evaluation input[type='radio']:checked~label {
-    color: #ffcc00;
-}
-form {
-    width: 90%;
-    height: 20px;
-    padding: 2px 5%;
-}
-
-
-
-
-img.nakata_syasin{
-    width: 30%;
-    height: 30%;
-  
- }
-/* ------口コミの星の実装終了------ */
 /* -------地図の埋め込み-------- */
 #sample {
     width: 700px;
