@@ -51,119 +51,136 @@
         <h1>Welcomo to SUNABACO KOZA<br>Gourmet Page!!</h1>
     </div>
 
-    <!-- 以下におすすめの飲食店を書いてください -->
 
-    <!-- 各紹介部分をdivタグで分ける -->
-    <!-- 画像を選択したら、拡大するjQueryをつけたい -->
     <div class="main">
-        <div class="m-container seven">
-            <h3>セブンイレブン</h3>
-            <p>近くて便利</p>
-            <img src="./img/seven.png" alt="セブンイレブン">
-        </div>
 
-        <div class="m-container famima">
-            <h3>ファミリーマート</h3>
-            <p>あなたと、コンビに、チョコミン党の味方</p>
-            <img src="./img/logo_fm.png" alt="ファミリーマート">
-            <img src="./img/EVzBCYQUwAQu2Fn.jpg" alt="ファミリーマート">
-        </div>
-
-        <div class="m-container lowson">
-            <h3>ローソン</h3>
-            <p>コザのホットステーション</p>
-            <img src="./img/lowson.jpg" alt="ローソン">
-        </div>
-
-        <div class="m-container keijiro">
-            <h3>麺やKEIJIRO本店</h3>
-            <p>看板メニューのまぜ麺がうまい！！無料で飲めるダシもいい！！<br>無料で大盛りにもできるのでおすすめです。</p>
-            <img src="./img/KEIJIRO.png" alt="麺やKEIJIRO">
-            <img src="./img/KEIJIRO2.png" alt="麺やKEIJIRO">
-        </div>
-
-        <div class="m-container rinrin">
-            <h3>りんりん</h3>
-            <p>コザの商店街にある居酒屋<br>豆腐の天ぷらがめちゃくちゃうまい！！カロリーゼロなのかってくらい無限に食べられます（笑）</p>
-            <img src="./img/rinrin.png" alts="りんりん">
-        </div>
-
-        <div class="m-container nakata">
-            <h3>なかた</h3>
-            <p>すなばこコザのすぐ近く<br>コザに似合わずお洒落で大人な佇まいのダイニングバーだが今はテイクアウトのみ<br>お弁当でも味のクオリティ高し（いつか夜行こう）</p>
-            <img src="./img/koza_nakata5874.jpg" alt="なかた" class="nakata_syasin">
-        </div>
-
-        <div class="m-container nicoli">
-            <h3>nicoli koza</h3>
-            <p>マフィン＆スコーン専門店！<br>スムージーもあるよ！！</p>
-            <img src="./img/koza_nicoli.JPG" alt="nicolikoza">
-        </div>
-
-        <div class="m-container uemaTenpura">
-            <h3>上間天ぷら</h3>
-            <p>天ぷらメインの惣菜＆弁当屋さん！<br>沖縄の天ぷらはおやつです！！</p>
-            <img src="./img/koza/uemaTenpura.jpg" alt="uematenpura">
-        </div>
-
-        <!-- 口コミ投稿フォーム作成 -->
-        <div class="add-form">
-            <div class="a-wrapper">
-                <p>投稿者氏名</p>
-                <input>
-                <p>店名</p>
-                <input>
-                <p>感想</p>
-                <textarea></textarea>
+        <!-- 以下におすすめの飲食店を書いてください -->
+        <!-- セブンイレブン -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/seven.png" alt="セブンイレブン">
+            <div class="card-body">
+                <h5 class="card-title">セブンイレブン</h5>
+                <p class="card-text">近くて便利</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-            <p>オススメ度</p>
-            <!-- 口コミ星の実装 -->
-            <form type="get" action="#">
-                <div class="evaluation">
-                    <input id="star1" type="radio" name="star" value="5" />
-                    <label for="star1"><span class="text">最高</span>★</label>
-                    <input id="star2" type="radio" name="star" value="4" />
-                    <label for="star2"><span class="text">良い</span>★</label>
-                    <input id="star3" type="radio" name="star" value="3" />
-                    <label for="star3"><span class="text">普通</span>★</label>
-                    <input id="star4" type="radio" name="star" value="2" />
-                    <label for="star4"><span class="text">悪い</span>★</label>
-                    <input id="star5" type="radio" name="star" value="1" />
-                    <label for="star5"><span class="text">最悪</span>★</label>
-                </div>
-            </form>
-            <!-- -------口コミ星の実装終了----- -->
-            <div class="f-submit">
-                <input class="submit" type="submit" value="送信">
-                <input class="submit" type="submit" value="取消">
-            </div>
-            <!-- -----------口コミ投稿フォーム作成終了-------- -->
         </div>
+
+        <!-- ファミリーマート -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/logo_fm.png" alt="ファミリーマート">
+            <img class="card-img-top" src="./img/EVzBCYQUwAQu2Fn.jpg" alt="ファミリーマート">
+            <div class="card-body">
+                <h5 class="card-title">ファミリーマート</h5>
+                <p class="card-text">あなたと、コンビに、チョコミン党の味方</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- ローソン -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/lowson.jpg" alt="ローソン">
+            <div class="card-body">
+                <h5 class="card-title">ローソン</h5>
+                <p class="card-text">コザのホットステーション</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- 麺やKEIJIRO本店 -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/KEIJIRO.png" alt="麺やKEIJIRO">
+            <img class="card-img-top" src="./img/KEIJIRO2.png" alt="麺やKEIJIRO">
+            <div class="card-body">
+                <h5 class="card-title">麺やKEIJIRO本店</h5>
+                <p class="card-text">看板メニューのまぜ麺がうまい！！無料で飲めるダシもいい！！無料で大盛りにもできるのでおすすめです。</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- りんりん -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/rinrin.png" alt="りんりん">
+            <div class="card-body">
+                <h5 class="card-title">りんりん</h5>
+                <p class="card-text">コザの商店街にある居酒屋。豆腐の天ぷらがめちゃくちゃうまい！！カロリーゼロなのかってくらい無限に食べられます（笑）</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- なかた -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/koza_nakata5874.jpg" alt="なかた">
+            <div class="card-body">
+                <h5 class="card-title">なかた</h5>
+                <p class="card-text">すなばこコザのすぐ近く。コザに似合わずお洒落で大人な佇まいのダイニングバーだが今はテイクアウトのみ。お弁当でも味のクオリティ高し（いつか夜行こう）</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- nicoli koza -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/koza_nicoli.JPG" alt="nicoli koza">
+            <div class="card-body">
+                <h5 class="card-title">nicoli koza</h5>
+                <p class="card-text">マフィン＆スコーン専門店！スムージーもあるよ！！</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <!-- 上間天ぷら -->
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="./img/koza/uemaTenpura.jpg" alt="uematenpura">
+            <div class="card-body">
+                <h5 class="card-title">上間天ぷら</h5>
+                <p class="card-text">天ぷらメインの惣菜＆弁当屋さん！沖縄の天ぷらはおやつです！！</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
     </div>
 
-    </div>
+    <!-- vue.jsでコメント投稿機能を作ってみた https://qiita.com/noytdm1021/items/e452b56a083b6f305799 参照 -->
+    <div class="container" id="app" v-cloak>
+        <h1>評価</h1>
+        <div v-if="length">
+            <h2>評価点 : {{averageScore}}</h2>
+        </div>
+        <form v-on:submit.prevent>
+            <input type="textarea" v-model="comment">
+            <select v-model="rate">
+                <option value="0">☆☆☆☆☆</option>
+                <option value="1">★☆☆☆☆</option>
+                <option value="2">★★☆☆☆</option>
+                <option value="3">★★★☆☆</option>
+                <option value="4">★★★★☆</option>
+                <option value="5">★★★★★</option>
+            </select>
+            <button v-on:click="submit">送信</button>
+            <button v-on:click="sort">⬇︎</button>
+            <button v-on:click="sortUp">⬆︎</button>
+        </form>
+        <div v-for="(comment , index) in comments">
+            <ul>
+                <li>満足度 : <span>{{'★'.repeat(comment.rate)}}</span></li>
+                <p>コメント : <span>{{comment.comment}}</span></p>
+                <button v-on:click="deleteItem(index)">delete</button>
+            </ul>
 
+        </div>
+    </div>
     <!-- 地図の埋め込み -->
     <div id="sample"></div>
 
     <footer>
         <img class="favi" src="img/favicon.ico">
         <p>SUNABACO</p>
-        <!-- たかちゃん先生の画像をどうにか入れたい -->
-        <!-- <img class="takachang" src="img/takachang.jpeg"> -->
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-    <script src="./js/koza.js">
-    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="js/koza.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
 
 </body>
